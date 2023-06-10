@@ -1,0 +1,68 @@
+/* CSS Document */
+/* General Parallax CSS */
+.parallax {
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 500px; 
+	text-align: center;
+	margin: 0px;
+}
+.parallax:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.25em; 
+}
+.parallax-content {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 50px;
+	background-color: rgba(78,78,78,.7);
+	border-radius: 20px;
+	padding: 20px;
+	color: white;
+}
+
+/* Custom Parallax CSS */
+.home-parallax {
+	background-image: url("../pictures/homeparallax.jpg");
+}
+.computer-home-parallax {
+	background-image: url("../pictures/computerhomeparallax.jpg");
+}
+.computer-bigmak-parallax {
+	background-image: url("../pictures/computerbigmakparallax.jpg");
+}
+.computer-makbooks-parallax {
+	background-image: url("../pictures/makbooksparallax.jpg");
+}
+.computer-makbooklite-parallax {
+	background-image: url("../pictures/makbook.png");
+}
+.computer-makbookpro-parallax {
+	background-image: url("../pictures/makbook.png");
+}
+.phone-home-parallax {
+	background-image: url("../pictures/phonehomeparallax.jpg");
+}
+.phone-10-parallax {
+	background-image: url("../pictures/uphone10parallax.jpg");
+}
+.phone-11-parallax {
+	background-image: url("../pictures/uphone11parallax.jpg");
+}
+.contact-parallax {
+	background-image: url("../pictures/contactparallax.jpg");
+}
+.support-parallax {
+	background-image: url("../pictures/supportparallax.jpg");
+}
+.aboutus-parallax {
+	background-image: url("../pictures/aboutusparallax.jpg");
+}
+.aboutourelectronics-parallax {
+	background-image: url("../pictures/aboutourelectronicsparallax.jpg");
+}

@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+
+<head>
+	<!--Specifies Character Encoding-->
+	<meta charset="utf-8">
+
+	<!--Specifies Viewing Aspect Ratio-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--Formatting Links-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="CSS/generalstyle.css">
+
+	<!--Title-->
+	<title>Search</title>
+
+	<!--Specialized CSS-->
+	<style>
+		h2 {
+			font-size: 30px;
+		}
+
+		button {
+			font-size: 25px;
+		}
+
+		#myInput {
+			background-image: url('/css/searchicon.png');
+			background-position: 10px 12px;
+			background-repeat: no-repeat;
+			width: 100%;
+			font-size: 16px;
+			padding: 12px 20px 12px 40px;
+			border: 1px solid #ddd;
+			margin-bottom: 12px;
+		}
+
+		#myUL {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		#myUL li a {
+			border: 1px solid #ddd;
+			margin-top: -1px;
+			background-color: #f6f6f6;
+			padding: 12px;
+			text-decoration: none;
+			font-size: 18px;
+			color: black;
+			display: block
+		}
+
+		#myUL li a:hover:not(.header) {
+			background-color: #eee;
+		}
+	</style>
+</head>
+
+<body>
+	<!--Header-->
+	<h2>Search</h2>
+
+	<!--Back Button-->
+	<center><button onclick="goBack()">Go Back</button></center>
+
+	<br>
+
+	<!--Input Bar-->
+	<input type="text" id="myInput" onkeyup="search()" placeholder="Search for a page.." title="Type in a page">
+
+	<!--Search Choices-->
+	<ul id="myUL">
+		<li><a href="computer/index.html">Computers</a></li>
+		<li><a href="computer/bigmak.html">BigMak</a></li>
+		<li><a href="computer/makbooks/index.html">Makbooks</a></li>
+		<li><a href="computer/makbooks/pro.html">Makbook Pro</a></li>
+		<li><a href="computer/makbooks/lite.html">Makbook Lite</a></li>
+		<li><a href="phone/index.html">Phones</a></li>
+		<li><a href="phone/10phone.html">uPhone 10</a></li>
+		<li><a href="phone/11phone.html">uPhone 11</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a href="support.html">Support</a></li>
+		<li><a href="aboutus.html">About Us</a></li>
+		<li><a href="aboutelectronics.html">About Our Electronics</a></li>
+		<li><a href="search.html">Search</a></li>
+		<li><a href="search.html">Extra credit, here I come!</a></li>
+
+	</ul>
+
+	<!--Script Link-->
+	<script src="scripts/search.js"></script>
+</body>
+
+</html>

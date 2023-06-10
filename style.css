@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: darkgrey;
+}
+.header {
+    text-decoration: underline;
+}
+.row {
+    display: flex;
+}
+.two-column {
+    flex: 50%;
+    margin: 10px;
+}
+.list-item {
+    margin: 5px;
+}
+.list-header {
+    font-size: large;
+}
+.subtitle {
+    font-size: small;
+}

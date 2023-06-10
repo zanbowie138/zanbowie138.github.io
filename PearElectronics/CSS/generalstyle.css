@@ -1,0 +1,55 @@
+/* CSS Document */
+/* Basic Formatting */
+h1, h2, h3, h4, h5 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+html, body {
+	max-width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	margin: 0;
+}
+.quote {
+	color: #8E8E8E;
+	font-style: italic;
+}
+.paragraph {
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+
+/* Body Fade-In Animation */
+body {
+	-webkit-animation: fadein .5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein .5s; /* Firefox < 16 */
+	-o-animation: fadein .5s; /* Opera < 12.1 */
+	animation: fadein .5s;
+}
+@keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+@-o-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+/*List CSS*/
+.listitem{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}

@@ -1,0 +1,48 @@
+/* CSS Document */
+/* Banner Link Formatting */
+.sublink {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+.sublink:not(:hover) {
+	text-decoration: none;
+}
+.sublink:hover {
+	text-decoration: underline;
+}
+.sublink:link, .sublink:visited {
+	color: royalblue;
+}
+
+/* Banner Formatting */
+.black-individual {
+	background-color: rgba(0,0,0,1.00);
+	color: white;
+	font-size: 30px;
+	padding: 10px;
+}
+.grey-individual {
+	background-color: #cfcfcf;
+	color: black;
+	font-size: 30px;
+	padding: 10px;
+}
+.grey-double {
+	background-color: rgb(241, 241, 241);
+	color: black;
+	font-size: 20px;
+	padding: 10px;
+	border: 1px solid rgb(196, 196, 196);
+}
+
+/* Grid For Double*/
+.flex-container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+.flex-container > div {
+	width: 50%;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+}

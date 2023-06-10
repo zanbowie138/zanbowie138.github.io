@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+
+<head>
+	<!--Specifies Character Encoding-->
+	<meta charset="utf-8">
+
+	<!--Specifies Viewing Aspect Ratio-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--Formatting Links-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="CSS/generalstyle.css">
+	<link rel="stylesheet" href="CSS/bannerstyle.css">
+	<link rel="stylesheet" href="CSS/parallaxstyle.css">
+	<link rel="stylesheet" href="CSS/navbar.css">
+
+	<!--Title-->
+	<title>Pear Electronics</title>
+
+	<!--Navbar-->
+	<ul>
+		<li><a href="index.html" id="logo"><img alt="logopicture" src="pictures/pear.png" width="13px" height="19px"></a></li>
+
+		<li class="dropdown">
+			<a href="computer/index.html" class="dropbtn">Computers</a>
+			<div class="dropdown-content">
+				<a href="computer/bigmak.html">BigMak</a>
+				<a href="computer/makbooks/index.html">Makbooks</a>
+			</div>
+		</li>
+
+		<li class="dropdown">
+			<a href="phone/index.html" class="dropbtn">Phones</a>
+			<div class="dropdown-content">
+				<a href="phone/10phone.html">uPhone 10</a>
+				<a href="phone/11phone.html">uPhone 11</a>
+			</div>
+		</li>
+
+		<li><a href="contact.html">Contact</a></li>
+		<li><a href="support.html">Support</a></li>
+		<li><a href="aboutus.html">About Us</a></li>
+
+		<li id="search"><i class="fas fa-search" onClick="window.location.href = 'search.html';"></i></li>
+
+	</ul>
+</head>
+
+<body>
+	<!--Parallax Header-->
+	<div class="parallax home-parallax">
+		<h1 class="parallax-content ">Pear Electronics</h1>
+	</div>
+
+	<!--Individual Banners-->
+	<div class="black-individual">
+		<h4>MakBook Lite</h4>
+		<h2>Lightness strikes again.</h2>
+		<center>
+			<a href="computer/makbooks/index.html" class="sublink">Learn more</a>
+			<br><br>
+			<img src="pictures/makbook.png" alt="makbook lite" width="300" height="200">
+		</center>
+	</div>
+	<div class="grey-individual">
+		<h4>BigMak</h4>
+		<h2>Heavily improved.</h2>
+		<center>
+			<a href="computer/bigmak.html" class="sublink">Learn more</a>
+			<br><br>
+			<img src="pictures/bigmak.png" alt="bigmak" width="200" height="200">
+		</center>
+	</div>
+
+	<!--Double Grid Banners-->
+	<div class="flex-container">
+		<div class="grey-double">
+			<h1>uPhone 10</h1>
+			<h3>Like a phone. Unlike any phone.</h3>
+			<a href="phone/10phone.html" class="sublink">Learn more</a>
+			<br>
+			<img src="pictures/uphone10.png" alt="uPhone 10" width="200px" height="300px">
+		</div>
+		<div class="grey-double">
+			<h1>uPhone 11</h1>
+			<h3>Like a phone. Unlike any phone. But better.</h3>
+			<a href="phone/11phone.html" class="sublink">Learn more</a>
+			<br>
+			<img src="pictures/uphone11.png" alt="uPhone 11" width="200px" height="300px">
+		</div>
+	</div>
+
+	<!--Icon Link-->
+	<script src="https://kit.fontawesome.com/caf68df34c.js"></script>
+
+</body>
+
+</html>

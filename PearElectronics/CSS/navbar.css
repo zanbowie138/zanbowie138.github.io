@@ -1,0 +1,60 @@
+/* CSS Document */
+/* Navbar Links CSS */
+ul:not(.list) {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(38,38,38,1.00);
+	top: 0;
+	width: 100%;
+}
+li:not(#search):not(.listitem) {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+li a:hover:not(.active):not(#logo) {
+	color: rgba(191,191,191,1.00);
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+  }
+.active {
+	background-color: rgba(74,74,74,1.00);
+}
+
+/* Search Icon CSS */
+#search {
+	display: block;
+	padding: 14px 16px;
+	font-size: 20px;
+	float: right;
+}
+#search:hover {
+	color: rgba(191,191,191,1.00);
+}
+#search:not(:hover) {
+	color: white;
+}
