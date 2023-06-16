@@ -35,7 +35,7 @@ body {
 	width: 49.2%;
 }
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 800 PIXELS */
 
 @media only screen and (max-width: 800px) {
 	.col { 
